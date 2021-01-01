@@ -81,3 +81,11 @@ nav {
   transform: translateY(100%);
   display: inline-block;
 }
+@media screen and (max-width: 800px) {
+  .landing {
+    min-width: 100%;
+  }
+  .nav-links {
+    flex-direction: column;
+  }
+}
